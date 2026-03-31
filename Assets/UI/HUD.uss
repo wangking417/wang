@@ -1,0 +1,72 @@
+.hud-root {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: rgb(245, 245, 245);
+    -unity-font-definition: resource("Fonts & Materials/Arial SDF");
+}
+
+.hud-top {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hud-bottom {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hud-panel {
+    padding: 8px 12px;
+    background-color: rgba(8, 15, 28, 0.74);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 18px;
+}
+
+.hud-title {
+    color: rgb(255, 194, 92);
+}
+
+.hud-emphasis {
+    font-size: 22px;
+    color: rgb(117, 244, 255);
+}
+
+.crosshair {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.crosshair-h {
+    position: absolute;
+    left: 3px;
+    right: 3px;
+    top: 14px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.crosshair-v {
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    left: 14px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.9);
+}

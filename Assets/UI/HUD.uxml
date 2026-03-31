@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="hud-root" class="hud-root">
+        <ui:VisualElement class="hud-top">
+            <ui:Label name="weapon-name" text="Weapon: Assault Rifle" class="hud-panel hud-title" />
+            <ui:Label name="score-label" text="Score: 0" class="hud-panel" />
+        </ui:VisualElement>
+        <ui:VisualElement class="hud-bottom">
+            <ui:Label name="health-label" text="HP: 100" class="hud-panel hud-emphasis" />
+            <ui:Label name="ammo-label" text="Ammo: 30 / 90" class="hud-panel hud-emphasis" />
+            <ui:Label name="status-label" text="Status: Combat Ready" class="hud-panel" />
+        </ui:VisualElement>
+        <ui:VisualElement class="crosshair">
+            <ui:VisualElement class="crosshair-h" />
+            <ui:VisualElement class="crosshair-v" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+
